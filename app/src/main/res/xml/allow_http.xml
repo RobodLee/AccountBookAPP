@@ -1,0 +1,5 @@
+<network-security-config>
+
+    　   <!--默认允许所有网址使用非安全连接-->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SynchornizationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            >-->
+<!--            -->
+<!--            <ImageButton-->
+<!--                android:layout_width=""-->
+<!--                android:layout_height=""-->
+<!--            -->
+<!--        </LinearLayout>-->
+
+        <Button
+            android:id="@+id/upload_to_cloud"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:drawableLeft="@drawable/upload"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/shape_button"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:text=" 同步到云端"/>
+
+        <Button
+            android:id="@+id/down_to_local"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:drawableLeft="@drawable/download"
+            android:background="@drawable/shape_button"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:text=" 下载到本地"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
